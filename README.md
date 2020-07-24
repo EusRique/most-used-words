@@ -1,25 +1,19 @@
-# most-used-words
+# **Most Used Words**
 
-## Project setup
-```
-npm install
-```
+O projeto foi desenvolvido para fins de estudo da stack Electron, basicamente o usuário sobe arquivos de  legendas de séries e filmes e ao enviar para processamento a ferramenta devolve todas as vezes que determinadas palavras foram usadas naquela legenda.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Formato aceito .srt
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Stacks utilizadas
 
-### Lints and fixes files
-```
-npm run lint
-```
+## **Requerimentos**
+- Electron
+- VueJs
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# most-used-words
+Instale as dependências do projeto rodando o seguinte comando no terminal.
+
+```npm install```
+
+Para iniciar a API execute o comando abaixo no terminal. 
+
+```npm run electron:serve```
